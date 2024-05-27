@@ -7,14 +7,24 @@
   </head>
   <body>
     <script>
-      new CozeWebSDK.WebChatClient({
+      const client = new CozeWebSDK.WebChatClient({
         config: {
-          bot_id: "7365929209094569990",
+          bot_id: "7372224410235109382",
         },
         componentProps: {
           title: "Coze",
         },
       });
+
+      client.destroy();
+      // new CozeWebSDK.WebChatClient({
+      //   config: {
+      //     bot_id: "7365929209094569990",
+      //   },
+      //   componentProps: {
+      //     title: "Coze",
+      //   },
+      // });
     </script>
   </body>
 </html>
