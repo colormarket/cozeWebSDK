@@ -1,1 +1,1 @@
-# cozWebSDK
+# cozeWebSDK
